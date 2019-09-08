@@ -4546,3 +4546,11 @@
 			}
 
 		}
+
+/* fix for text which is too low */
+		@media screen and (min-width: 750px) {
+.post .inner {
+     	margin-top: -70%;
+     	padding-top: -70%;
+		}
+	}
